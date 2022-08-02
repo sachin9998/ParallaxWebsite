@@ -1,0 +1,72 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap');
+
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  font-size: 25px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1 {
+  background: url("./images/image1.png");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background: url("./images/image2.png");
+  min-height: 400px;
+  /* 400px  */
+}
+
+.pimg3 {
+  background: url("./images/image3.png");
+  min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.textBg {
+  background-color: #313534;
+  color: white;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  color: #ddd;
+  background-color: #282e34;
+}
